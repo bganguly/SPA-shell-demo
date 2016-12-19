@@ -1,0 +1,114 @@
+/* generic classes here */
+* {
+    font-family: "helvetica";
+}
+
+body {
+    margin:0;
+}
+
+.overflow-auto {
+    overflow:auto;
+}
+
+/* specific app classes here */
+.container {
+    height: 100vh;
+}
+
+.left-nav {
+    width:200px;
+    float:left;
+    height: inherit;
+    background: black;
+    color:#e4e4e4;
+}
+
+.left-nav > ul{
+    height: inherit;
+    padding-left: 0;
+}
+
+.left-nav  li{
+    list-style-type: none;
+    font-weight: bold;
+    height:100px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.left-nav  li:first-child{
+    padding-left: 60px;
+}
+
+.left-nav  li:not(:first-child){
+    background-color: #353638 ;
+    margin-bottom: 5px;
+}
+
+.left-nav .explore {
+    border-right: #4e9ad3 7px solid;
+}
+
+.left-nav .folder {
+    border-right: #f631ef 7px solid;
+}
+
+.left-nav .upload {
+    border-right: #ff9400 7px solid;
+}
+
+.left-nav  i{
+    position:absolute;
+    top:37%;
+}
+
+.left-nav  li  i span{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+header {
+    margin-left: 200px;
+}
+
+header img {
+    width: 100vw;
+    height:150px
+}
+
+.content {
+    display:flex;
+    flex-wrap: wrap;
+    color: #403f3f;
+}
+
+.content > div {
+    flex-grow: 1;
+    flex-basis: 31%;
+    padding: 1%;
+    text-align: center;
+}
+
+.content > div > img {
+    display: block;
+    margin: auto;
+}
+
+.content > div > div.img-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin:20px 0;
+}
+
+.content > div > div.img-title::first-letter {
+    text-transform: capitalize;
+}
+
+.content > div > div.img-description {
+    font-size: 12px;
+    line-height:24px;
+}
