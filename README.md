@@ -9,7 +9,7 @@ Create a web interface that helps showcase some basic elements of a 'SPA' shell.
 This can be easily run locally even with a SimpleHTTPServer on the mac as follow.
 Or alternatively use the 'web server for chrome' app.
 ```sh
-$ git clone https://github.com/bganguly/interview-exercise.git
+$ git clone https://github.com/bganguly/SPA-shell-demo.git
 $ cd interview-exercise
 $ cd angularDemo
 $ python -m SimpleHTTPServer 8889
