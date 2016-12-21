@@ -10,7 +10,7 @@ This can be easily run locally even with a SimpleHTTPServer on the mac as follow
 Or alternatively use the 'web server for chrome' app.
 ```sh
 $ git clone https://github.com/bganguly/SPA-shell-demo.git
-$ cd SPA-shell-demo
+$ cd SPA-shell-demo/src
 $ python -m SimpleHTTPServer 8889
 ```
 [go to localhost](http://localhost:8889/index.html)
