@@ -3,25 +3,19 @@
     font-family: "helvetica";
 }
 
-body {
-    margin:0;
-}
-
-.overflow-auto {
-    overflow:auto;
+body{
+    margin: 0;
+    position:relative;
 }
 
 /* specific app classes here */
-.container {
-    height: 100vh;
-}
-
 .left-nav {
     width:200px;
-    float:left;
-    height: inherit;
     background: black;
     color:#e4e4e4;
+    position:absolute;
+    top:0;
+    bottom:0;
 }
 
 .left-nav > ul{
@@ -76,11 +70,12 @@ header {
 }
 
 header img {
-    width: 100vw;
+    width: 100%;
     height:150px
 }
 
 .content {
+    margin-left: 200px;
     display:flex;
     flex-wrap: wrap;
     color: #403f3f;
