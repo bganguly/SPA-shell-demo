@@ -1,5 +1,5 @@
 ### SPA-shell-demo
-Short *plain vanilla js* example that demonstrates a persistent left nav bar and some css3 usage for creating
+Short **plain vanilla js** example that demonstrates a persistent left nav bar and some css3 usage for creating
 DOM nodes using json data
 
 ### Goal
